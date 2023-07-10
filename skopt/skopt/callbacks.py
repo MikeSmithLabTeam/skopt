@@ -14,7 +14,7 @@ from time import time
 
 import numpy as np
 
-from skopt.utils import dump
+from .utils import dump
 
 def check_callback(callback):
     """
