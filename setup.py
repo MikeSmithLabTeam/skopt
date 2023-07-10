@@ -7,13 +7,13 @@ with open("LICENSE", "r") as fh:
     license = fh.read()
 
 setuptools.setup(
-    name='scikit-optimize',
+    name='skopt',
     version='0.1',
     license=license,
     packages=setuptools.find_packages(
         exclude=('tests', 'docs')
     ),
-    url='https://github.com/MikeSmithLabTeam/scikit-optimize',
+    url='https://github.com/MikeSmithLab/skopt',
     install_requires=[
         'numpy',
         'matplotlib',
