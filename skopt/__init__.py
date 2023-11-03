@@ -40,25 +40,25 @@ if __SKOPT_SETUP__:
 else:
     import platform
     import struct
-    from skopt import acquisition
-    from skopt import benchmarks
-    from skopt import callbacks
-    from skopt import learning
-    from skopt import optimizer
+    #from skopt import acquisition
+    #from skopt import benchmarks
+    #from skopt import callbacks
+    #from skopt import learning
+    #from skopt import optimizer
 
-    from skopt import space
-    from skopt import sampler
-    from skopt.skopt.optimizer import dummy_minimize
-    from skopt.skopt.optimizer import forest_minimize
-    from skopt.skopt.optimizer import gbrt_minimize
-    from skopt.skopt.optimizer import gp_minimize
-    from skopt.skopt.optimizer import Optimizer
-    from skopt.skopt.searchcv import BayesSearchCV
-    from skopt.skopt.space import Space
-    from skopt.skopt.utils import dump
+    #from skopt import space
+    #from skopt import sampler
+    #from skopt.skopt.optimizer import dummy_minimize
+    #from skopt.skopt.optimizer import forest_minimize
+    #from skopt.skopt.optimizer import gbrt_minimize
+    #from skopt.skopt.optimizer import gp_minimize
+    #from skopt.skopt.optimizer import Optimizer
+    #from skopt.skopt.searchcv import BayesSearchCV
+    #from skopt.skopt.space import Space
+    #from skopt.skopt.utils import dump
     from skopt.skopt.utils import expected_minimum
     from skopt.skopt.utils import expected_minimum_random_sampling
-    from skopt.skopt.utils import load
+    #from skopt.skopt.utils import load
     __all__ = (
         "acquisition",
         "benchmarks",
