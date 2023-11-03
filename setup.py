@@ -13,7 +13,7 @@ setuptools.setup(
     packages=setuptools.find_packages(
         exclude=('tests', 'docs')
     ),
-    url='https://github.com/MikeSmithLab/skopt',
+    url='https://github.com/MikeSmithLabTeam/skopt',
     install_requires=[
         'numpy',
         'matplotlib',
